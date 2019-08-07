@@ -3,6 +3,10 @@ This component makes it super simple to validate a JWT token issued by the Azure
 is not usinge caching this means the certificates will be downloaded from Mirosoft with every verification request. 
 If you are using Azure AAD tokens in every request against your API additional caching would make sense. 
 
+## Compatibility
+
+Azure AD v2.0 only
+
 ## Usage
 
 ```javascript
